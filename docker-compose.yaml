@@ -1,0 +1,27 @@
+services:
+  api:
+    build:
+      context: ./desaparecidos-api
+      dockerfile: Dockerfile
+    container_name: desaparecidos_api
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+    # Garante que a API escute em todas as interfaces dentro do container
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build:
+      context: ./my-app
+      dockerfile: Dockerfile
+    container_name: desaparecidos_frontend
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
+    environment:
+      # ⚡ IMPORTANTE: Use o nome do serviço da API como hostname
+      - NEXT_PUBLIC_API_URL=http://api:3002
+      - NODE_ENV=production
+    depends_on:
+      - api

@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# Build output
+.next
+out
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env*
+.env.local
+.env.development
+.env.production
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Other
+../desaparecidos-api
