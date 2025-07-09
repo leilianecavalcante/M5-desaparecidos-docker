@@ -111,7 +111,7 @@ O processo pode levar alguns minutos na primeira vez, pois o Docker precisa baix
 Após a conclusão do comando, a aplicação estará disponível nos seguintes endereços:
 
 - **Frontend (Next.js):** http://localhost:3001
-- **API (Node.js):** http://localhost:3002
+- **API (Node.js):** http://localhost:3002/criancas
 
 Você pode acessar a landing page abrindo seu navegador e visitando `http://localhost:3001`.
 
