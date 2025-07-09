@@ -89,7 +89,7 @@ No entanto, se você precisar adicionar chaves de API ou outras configurações 
 ### Entre no diretório com o seguinte comando no seu terminal
 
 ```bash
-cd desaparecidos-landing
+cd M5-desaparecidos-docker
 ```
 
 
