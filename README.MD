@@ -136,7 +136,7 @@ Mesmo com o Docker, o seu projeto continua podendo ser executado manualmente em 
 ```bash
 cd desaparecidos-api
 npm install
-npm src/server.js
+node src/server.js
 ```
 Sua API ficará rodando em: http://localhost:3002
 
