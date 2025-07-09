@@ -126,7 +126,7 @@ docker-compose down
 
 ## COmo Rodar Sem o Docker?
 
-Mesmo com o Docker, o seu projeto continua podendo ser executado manualmente em dois terminais separados, desde que você tenha as dependências instaladas localmente.
+Mesmo com o Docker, o seu projeto continua podendo ser executado manualmente em dois terminais separados tipo (bash ou powershell), desde que você tenha as dependências instaladas localmente.
 
 ✅ Como funciona rodar manualmente?
 
