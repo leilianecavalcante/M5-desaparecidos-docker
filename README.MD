@@ -124,7 +124,7 @@ Para parar e remover os contêineres (liberando as portas e redes), execute o se
 docker-compose down
 ```
 
-## QUERO RODAR SEM O DOCKER
+## COmo Rodar Sem o Docker?
 
 Mesmo com o Docker, o seu projeto continua podendo ser executado manualmente em dois terminais separados, desde que você tenha as dependências instaladas localmente.
 
